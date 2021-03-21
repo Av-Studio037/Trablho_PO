@@ -26,11 +26,10 @@ public class ControlAdministrador {
 
     ArrayList<Administrador> lista = new ArrayList();
     
-    //CRUDE
+    //CRUDE GitHub Adicionado com sucesso 
 
     public void criar() throws IOException {
-
-        if (!directorio.exists()) {
+if (!directorio.exists()) {
             directorio.mkdir();
             System.out.println("Directorio criado");
         } else {
